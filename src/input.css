@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-text-first {
+    @apply font-semibold text-white text-base cursor-pointer
+}
+
+.nav-text {
+    @apply font-semibold text-white text-base ml-20 cursor-pointer
+}
