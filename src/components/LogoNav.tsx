@@ -1,14 +1,18 @@
 import React from "react";
+import TSCLogo from "../images/tsc-logo.png";
 
 function LogoNav() {
   return (
-    <div className="w-full flex justify-between items-center px-40 my-12">
-      <div className="flex flex-col">
-      <span className="">THE STONE CHURCH</span>
-      <span className="bg-red-500/90">AGUGU</span>
+    <div className="w-full flex justify-between items-center px-20 my-12">
+      <div className="flex justify-start items-center">
+      <img src={TSCLogo} alt="tsc-logo" className="w-[70px] h-[70px]"/>
+      <div className="flex flex-col justify-center items-start ml-2">
+      <span className="font-bold text-2xl leading-none">THE STONE CHURCH</span>
+      <span className="font-light text-xl text-red-500/90 leading-none">Agugu</span>
+      </div>
       </div>
 
-      <span className="">contact</span>
+      <span className="font-light">Ibadan,&nbsp;&nbsp;Nigeria</span>
     </div>
   );
 }
