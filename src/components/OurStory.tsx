@@ -3,7 +3,8 @@ import React from "react";
 function OurStory() {
   return (
 
-    <div className="text-end mt-20 text-lg">
+    <div className="flex justify-end">
+      <div className="min-h-[200px] xsm:max-w-[350px] sm:max-w-[450px] md:max-w-[500px] lg:max-w-[650px] xl:max-w-[750px] text-end mt-20 text-lg">
       <p className="font-light font-casual text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black underline underline-offset-4 decoration-gray-300 mb-16">
       Our Story
       </p>
@@ -32,6 +33,7 @@ function OurStory() {
       
 
       
+    </div>
     </div>
 
   );

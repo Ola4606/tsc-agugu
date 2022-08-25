@@ -11,11 +11,8 @@ function App() {
     <div>
       <Nav />
       <div className="px-20">
-        <div>
-          {/*Add background image here*/}
-          <LogoNav />
-          <Intro />
-        </div>
+        <LogoNav />
+        <Intro />
         <OurStory />
         <OurMission />
         <WhoWeAre />

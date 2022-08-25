@@ -2,16 +2,20 @@ import React from "react";
 
 function WhoWeAre() {
   return (
-    <div className="text-end mt-20 text-lg">
+    <div className="flex justify-center">
+    <div className="min-h-[200px] xsm:max-w-[350px] sm:max-w-[450px] md:max-w-[500px] lg:max-w-[650px] xl:max-w-[750px] text-center mt-20 text-lg">
       <p className="font-light font-casual text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black underline underline-offset-4 decoration-gray-300 mb-16">
         Who We Are?
       </p>
+      <div>
       <span className="bible-verse text-base md:text-base lg:text-lg mb-2 underline underline-offset-1">
         Daniel 2:34-35 (KJV)
       </span>
       <span className="bible-verse text-base md:text-base lg:text-lg mb-2 ">
         :
       </span>
+      </div>
+      
       <div className="font-casual">
 
       <p>
@@ -67,6 +71,7 @@ function WhoWeAre() {
           </span>
         </li>
       </ul>
+    </div>
     </div>
   );
 }
