@@ -5,18 +5,14 @@
 @tailwind utilities;
 
 
-.nav-text-first {
-    @apply font-semibold text-white text-base cursor-pointer font-inter
-}
-
 .nav-text {
-    @apply font-semibold text-white text-base ml-20 cursor-pointer font-inter
+    @apply font-inter font-semibold text-white text-base ml-20 cursor-pointer
 }
 
 .bible-verse {
-    @apply font-bold text-gray-700 font-causal
+    @apply font-causal font-bold text-gray-700 
 }
 
 .casual-text {
-    @apply font-normal text-black font-causal
+    @apply font-causal font-normal text-black
 }

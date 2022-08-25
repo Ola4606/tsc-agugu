@@ -1,36 +1,36 @@
-import React from 'react'
+import React from "react";
 
 function OurStory() {
-  return (
-    <div className="text-justify casual-text text-base md:text-lg lg:text-lg  mt-20">
-      <p className="font-sans text-xl sm:text-2xl md:text-3xl lg:text-4xl font-light text-black underline underline-offset-4 decoration-gray-300 mb-16">
-        Our Story
+  <div className="text-justify mt-20">
+      <p className="font-light font-causal text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black underline underline-offset-4 decoration-gray-300 mb-16">
+      Our Story
       </p>
-      <span className="bible-verse text-base md:text-base lg:text-lg mb-2 underline underline-offset-1">
-        Daniel 2:34-35 (KJV)
-      </span>
-      <span className="bible-verse text-base md:text-base lg:text-lg mb-2 ">
-        :
-      </span>
+
+      <div className="font-causal text-base">
+
       <p>
-        The Stone symbolized in this vision gives a revelation of the kingdom of
-        the Great King Jesus which outlasts every other kingdom.{" "}
+        We’ve been gathering together for over 25 years. Started on April 23rd,
+        1993 at the Omega Conference Centre, Favos building, New Bodija, in
+        Ibadan, Oyo State. We’ve expanded to more than 5,000 people in forty-one
+        (41) locations across 4 continents.The Stone Church, registered as an
+        arm of the Word Alive Ministries International.
       </p>
       <br />
       <p>
-        Thou sawest till that a stone was cut out without hands, which smote the
-        image upon his feet that were of iron and clay and brake them to pieces.
-        Then was the iron, the clay, the brass, the silver, and the gold, broken
-        to pieces together, and became like the chaff of the summer
-        threshingfloors; and the wind carried them away, that no place was found
-        for them: and the stone that smote the image became a great mountain,
-        and filled the whole earth.
+        The inaugural service was held on Saturday, April 23rd 1993, at the
+        Omega Conference Centre, Favos Building, New Bodija, Ibadan, Oyo State.
+        Sunday services commenced at the same venue on April 24th 1993 at 8 a.m.
+        The Headquarters of the Church has since moved to its permanent site at
+        Mokola, and has continued to establish branches all over the country and
+        overseas.
       </p>
       <br />
+
+      </div>
+      
 
       
     </div>
-  )
 }
 
-export default OurStory
+export default OurStory;

@@ -5,13 +5,18 @@ function LogoNav() {
   return (
     <div className="w-full flex justify-between items-center my-12">
       <div className="flex justify-start items-center">
-      <img src={TSCLogo} alt="tsc-logo" className="w-[70px] h-[70px]"/>
-      <div className="flex flex-col justify-center items-start ml-2 font-inter">
-      <span className="font-bold text-2xl leading-none">THE STONE CHURCH<br />AGUGU</span>
-      </div>
+        <img src={TSCLogo} alt="tsc-logo" className="w-[70px] h-[70px]" />
+
+        <div className="ml-2">
+          <span className="font-bold font-inter text-2xl leading-none">
+            THE STONE CHURCH, AGUGU
+          </span>
+        </div>
       </div>
 
-      <span className="font-light font-causal">Ibadan,&nbsp;&nbsp;Nigeria.</span>
+      <span className="font-light font-causal">
+        Ibadan,&nbsp;&nbsp;Nigeria.
+      </span>
     </div>
   );
 }

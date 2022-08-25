@@ -729,16 +729,6 @@ video {
   text-underline-offset: 1px;
 }
 
-.nav-text-first{
-  cursor: pointer;
-  font-family: Inter;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-weight: 600;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .nav-text{
   margin-left: 5rem;
   cursor: pointer;
