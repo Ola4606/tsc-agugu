@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: "Inter",
-        causal: "Poppins",
+        title: "Inter",
+        casual: "Poppins",
       },
     },
   },

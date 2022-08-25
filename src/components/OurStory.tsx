@@ -1,12 +1,14 @@
 import React from "react";
 
 function OurStory() {
-  <div className="text-justify mt-20">
-      <p className="font-light font-causal text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black underline underline-offset-4 decoration-gray-300 mb-16">
+  return (
+
+    <div className="text-end mt-20 text-lg">
+      <p className="font-light font-casual text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black underline underline-offset-4 decoration-gray-300 mb-16">
       Our Story
       </p>
 
-      <div className="font-causal text-base">
+      <div className="font-casual">
 
       <p>
         We’ve been gathering together for over 25 years. Started on April 23rd,
@@ -31,6 +33,8 @@ function OurStory() {
 
       
     </div>
+
+  );
 }
 
 export default OurStory;

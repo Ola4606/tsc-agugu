@@ -2,8 +2,8 @@ import React from "react";
 
 function WhoWeAre() {
   return (
-    <div className="text-justify mt-20">
-      <p className="font-light font-causal text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black underline underline-offset-4 decoration-gray-300 mb-16">
+    <div className="text-end mt-20 text-lg">
+      <p className="font-light font-casual text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black underline underline-offset-4 decoration-gray-300 mb-16">
         Who We Are?
       </p>
       <span className="bible-verse text-base md:text-base lg:text-lg mb-2 underline underline-offset-1">
@@ -12,7 +12,7 @@ function WhoWeAre() {
       <span className="bible-verse text-base md:text-base lg:text-lg mb-2 ">
         :
       </span>
-      <div className="font-causal text-base">
+      <div className="font-casual">
 
       <p>
         The Stone symbolized in this vision gives a revelation of the kingdom of
@@ -33,7 +33,7 @@ function WhoWeAre() {
       </div>
       
 
-      <ul className="list-disc list-inside font-light font-causal">
+      <ul className="list-disc list-inside font-light font-casual">
         <li>
           <span>
             He is <span className="font-semibold">The Stone</span> that was
