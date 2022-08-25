@@ -9,3 +9,11 @@
 .nav-text {
     @apply font-semibold text-white text-base ml-20 cursor-pointer
 }
+
+.bible-verse {
+    @apply font-sans font-bold text-gray-700
+}
+
+.casual-text {
+    @apply font-sans font-normal text-black
+}
