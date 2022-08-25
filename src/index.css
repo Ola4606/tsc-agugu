@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Poppins:wght@300;400;600;700&display=swap');
+
 /*
 ! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
 */
@@ -408,7 +410,7 @@ video {
   height: auto;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -455,7 +457,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::-webkit-backdrop {
+::-webkit-backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -502,7 +504,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -549,215 +551,187 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.my-20 {
+.my-20{
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
-.my-12 {
+.my-12{
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
-.mt-4 {
+.mt-4{
   margin-top: 1rem;
 }
 
-.ml-2 {
+.ml-2{
   margin-left: 0.5rem;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
-.mt-20 {
+.mt-20{
   margin-top: 5rem;
 }
 
-.flex {
+.mb-16{
+  margin-bottom: 4rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
+.flex{
   display: flex;
 }
 
-.h-\[70px\] {
+.h-\[70px\]{
   height: 70px;
 }
 
-.h-14 {
+.h-14{
   height: 3.5rem;
 }
 
-.min-h-\[200px\] {
+.min-h-\[200px\]{
   min-height: 200px;
 }
 
-.w-full {
+.w-full{
   width: 100%;
 }
 
-.w-\[70px\] {
+.w-\[70px\]{
   width: 70px;
 }
 
-.list-inside {
+.list-inside{
   list-style-position: inside;
 }
 
-.list-disc {
+.list-disc{
   list-style-type: disc;
 }
 
-.flex-col {
+.flex-col{
   flex-direction: column;
 }
 
-.items-start {
+.items-start{
   align-items: flex-start;
 }
 
-.items-center {
+.items-center{
   align-items: center;
 }
 
-.justify-start {
+.justify-start{
   justify-content: flex-start;
 }
 
-.justify-end {
+.justify-end{
   justify-content: flex-end;
 }
 
-.justify-center {
+.justify-center{
   justify-content: center;
 }
 
-.justify-between {
+.justify-between{
   justify-content: space-between;
 }
 
-.bg-red-500\/90 {
-  background-color: rgb(239 68 68 / 0.9);
+.bg-red-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
-.px-20 {
+.px-20{
   padding-left: 5rem;
   padding-right: 5rem;
 }
 
-.pr-20 {
+.pr-20{
   padding-right: 5rem;
 }
 
-.text-left {
-  text-align: left;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-justify {
+.text-justify{
   text-align: justify;
 }
 
-.text-end {
+.text-end{
   text-align: end;
 }
 
-.font-sans {
+.font-inter{
+  font-family: Inter;
+}
+
+.font-causal{
+  font-family: Poppins;
+}
+
+.font-sans{
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.text-xl {
+.text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-.text-base {
+.text-base{
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
-.text-2xl {
+.text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
-.font-bold {
+.font-bold{
   font-weight: 700;
 }
 
-.font-light {
+.font-light{
   font-weight: 300;
 }
 
-.font-semibold {
+.font-semibold{
   font-weight: 600;
 }
 
-.font-normal {
-  font-weight: 400;
-}
-
-.font-thin {
-  font-weight: 100;
-}
-
-.leading-none {
+.leading-none{
   line-height: 1;
 }
 
-.text-black {
+.text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.underline {
+.underline{
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
 
-.decoration-gray-300 {
+.decoration-gray-300{
   -webkit-text-decoration-color: #d1d5db;
           text-decoration-color: #d1d5db;
 }
 
-.underline-offset-4 {
+.underline-offset-4{
   text-underline-offset: 4px;
 }
 
-.underline-offset-1 {
+.underline-offset-1{
   text-underline-offset: 1px;
 }
 
-.placeholder-red-600::-webkit-input-placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-placeholder-opacity));
-}
-
-.placeholder-red-600::placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-placeholder-opacity));
-}
-
-.nav-text-first {
+.nav-text-first{
   cursor: pointer;
+  font-family: Inter;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 600;
@@ -765,9 +739,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.nav-text {
+.nav-text{
   margin-left: 5rem;
   cursor: pointer;
+  font-family: Inter;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 600;
@@ -775,84 +750,84 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.bible-verse {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.bible-verse{
+  font-family: Poppins;
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
-.casual-text {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.casual-text{
+  font-family: Poppins;
   font-weight: 400;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:max-w-\[450px\] {
+@media (min-width: 640px){
+  .sm\:max-w-\[450px\]{
     max-width: 450px;
   }
 
-  .sm\:text-2xl {
+  .sm\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
   }
 }
 
-@media (min-width: 768px) {
-  .md\:mt-8 {
+@media (min-width: 768px){
+  .md\:mt-8{
     margin-top: 2rem;
   }
 
-  .md\:max-w-\[500px\] {
+  .md\:max-w-\[500px\]{
     max-width: 500px;
   }
 
-  .md\:text-3xl {
+  .md\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
 
-  .md\:text-lg {
+  .md\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
-  .md\:text-base {
+  .md\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
   }
 }
 
-@media (min-width: 1024px) {
-  .lg\:max-w-\[650px\] {
+@media (min-width: 1024px){
+  .lg\:max-w-\[650px\]{
     max-width: 650px;
   }
 
-  .lg\:text-5xl {
+  .lg\:text-5xl{
     font-size: 3rem;
     line-height: 1;
   }
 
-  .lg\:text-xl {
+  .lg\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
-  .lg\:text-lg {
+  .lg\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
-  .lg\:text-4xl {
+  .lg\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
 }
 
-@media (min-width: 1280px) {
-  .xl\:max-w-\[750px\] {
+@media (min-width: 1280px){
+  .xl\:max-w-\[750px\]{
     max-width: 750px;
   }
 }

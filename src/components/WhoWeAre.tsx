@@ -3,7 +3,7 @@ import React from "react";
 function WhoWeAre() {
   return (
     <div className="text-justify casual-text text-base md:text-lg lg:text-lg  mt-20">
-      <p className="font-sans text-xl sm:text-2xl md:text-3xl lg:text-4xl font-light text-black underline underline-offset-4 decoration-gray-300 mb-16">
+      <p className="font-causal text-xl sm:text-2xl md:text-3xl lg:text-4xl font-light text-black underline underline-offset-4 decoration-gray-300 mb-16">
         Who We Are?
       </p>
       <span className="bible-verse text-base md:text-base lg:text-lg mb-2 underline underline-offset-1">

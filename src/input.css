@@ -1,19 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Poppins:wght@300;400;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 .nav-text-first {
-    @apply font-semibold text-white text-base cursor-pointer
+    @apply font-semibold text-white text-base cursor-pointer font-inter
 }
 
 .nav-text {
-    @apply font-semibold text-white text-base ml-20 cursor-pointer
+    @apply font-semibold text-white text-base ml-20 cursor-pointer font-inter
 }
 
 .bible-verse {
-    @apply font-sans font-bold text-gray-700
+    @apply font-bold text-gray-700 font-causal
 }
 
 .casual-text {
-    @apply font-sans font-normal text-black
+    @apply font-normal text-black font-causal
 }
