@@ -1,10 +1,9 @@
 import React from "react";
-import Intro from "./components/Intro";
-import LogoNav from "./components/LogoNav";
-import Nav from "./components/Nav";
-import OurMission from "./components/OurMission";
-import OurStory from "./components/OurStory";
-import WhoWeAre from "./components/WhoWeAre";
+
+import Nav from "./components/general/Nav";
+import LogoNav from "./components/general/LogoNav";
+import Home from "./components/home/Home";
+import BottomNav from "./components/general/BottomNav";
 
 function App() {
   return (
@@ -12,11 +11,9 @@ function App() {
       <Nav />
       <div className="px-20">
         <LogoNav />
-        <Intro />
-        <OurStory />
-        <OurMission />
-        <WhoWeAre />
+        <Home />
       </div>
+      <BottomNav />
     </div>
   );
 }
