@@ -13,14 +13,14 @@ function App() {
     <div>
       <Router>
         <ScrollToTop />
-        <div className="min-h-[100vh] w-[100vw] flex flex-col justify-between">
+        <div className="min-h-[100vh] flex flex-col justify-between">
           <Nav />
           <div className="px-20">
             <LogoNav />
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/services" element={<PageNotFound />} />
-              <Route path="/giving" element={<Home />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/giving" element={<Giving />} />
               <Route path="*" element={<PageNotFound />} />
             </Routes>
           </div>
