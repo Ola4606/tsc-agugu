@@ -1,4 +1,7 @@
-import TestImage from "../images/test.JPG";
+import church2019 from "../images/2019.png";
+import church2020 from "../images/2020.png";
+import church2021 from "../images/2021.png";
+import church2022 from "../images/2022.png";
 
 export default [
   {
@@ -12,7 +15,7 @@ export default [
         arm of the Word Alive Ministries International.
       </span>
     ),
-    imageURL: TestImage,
+    imageURL: church2019,
     side: "left",
   },
   {
@@ -26,7 +29,7 @@ export default [
         arm of the Word Alive Ministries International.
       </span>
     ),
-    imageURL: TestImage,
+    imageURL: church2020,
     side: "right",
   },
   {
@@ -40,7 +43,7 @@ export default [
         arm of the Word Alive Ministries International.
       </span>
     ),
-    imageURL: TestImage,
+    imageURL: church2021,
     side: "left",
   },
   {
@@ -54,7 +57,7 @@ export default [
         arm of the Word Alive Ministries International.
       </span>
     ),
-    imageURL: TestImage,
+    imageURL: church2022,
     side: "right",
   },
 ];
