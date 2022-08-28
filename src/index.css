@@ -612,16 +612,16 @@ video {
   height: 450px;
 }
 
+.min-h-\[100vh\]{
+  min-height: 100vh;
+}
+
 .min-h-\[200px\]{
   min-height: 200px;
 }
 
 .min-h-\[450px\]{
   min-height: 450px;
-}
-
-.min-h-\[100vh\]{
-  min-height: 100vh;
 }
 
 .w-full{
@@ -638,18 +638,6 @@ video {
 
 .w-\[500px\]{
   width: 500px;
-}
-
-.w-\[100vw\]{
-  width: 100vw;
-}
-
-.min-w-\[100vh\]{
-  min-width: 100vh;
-}
-
-.min-w-\[100vw\]{
-  min-width: 100vw;
 }
 
 .list-inside{
@@ -850,7 +838,6 @@ video {
 
 .nav-text{
   margin-left: 5rem;
-  cursor: pointer;
   font-family: Inter;
   font-size: 1rem;
   line-height: 1.5rem;

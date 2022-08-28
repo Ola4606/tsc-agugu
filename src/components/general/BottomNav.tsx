@@ -1,14 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function BottomNav() {
   return (
     <div>
       <div className="w-full bg-red-600 flex flex-col justify-start px-20 pt-10 pb-12 mt-20 text-white">
-
         <div className="flex justify-end items-center">
-          <span className="nav-text">Home</span>
-          <span className="nav-text">Services</span>
-          <span className="nav-text">Giving</span>
+          <Link to="/">
+            <span className="nav-text">Home</span>
+          </Link>
+          <Link to="/services">
+            <span className="nav-text">Services</span>
+          </Link>
+          <Link to="/giving">
+            <span className="nav-text">Giving</span>
+          </Link>
         </div>
 
         <div className="flex mt-10">
@@ -50,9 +56,7 @@ function BottomNav() {
         </div>
       </div>
       <div className="w-full bg-red-600 flex justify-between items-center px-20 pt-4 pb-2 text-white font-casual font-light text-sm">
-        <span>
-          Copyright 2022 The Stone Church, Agugu. All Rights Reserved
-        </span>
+        <span>Copyright 2022 The Stone Church, Agugu. All Rights Reserved</span>
         <span>
           Made by{" "}
           <a
