@@ -28,13 +28,13 @@ function YearDescription({
             </div>
           </div>
           <div>
-            <img src={imageURL} alt="" className="w-[500px] h-auto" />
+            <img src={imageURL} alt="" className="w-[500px] h-auto rounded-xl" />
           </div>
         </div>
       ) : (
         <div className="w-full flex justify-between items-center">
           <div>
-            <img src={imageURL} alt="" className="w-[500px] h-auto" />
+            <img src={imageURL} alt="" className="w-[500px] h-auto rounded-xl" />
           </div>
 
           <div className="min-h-[200px] xsm:max-w-[300px] sm:max-w-[400px] md:max-w-[450px] lg:max-w-[600px] xl:max-w-[700px] flex flex-col justify-center items-end text-end">
