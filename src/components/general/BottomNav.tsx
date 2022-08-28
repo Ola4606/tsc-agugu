@@ -3,15 +3,16 @@ import React from "react";
 function BottomNav() {
   return (
     <div>
-      <div className="w-full bg-red-600 flex flex-col justify-start p-20 mt-20 text-white">
+      <div className="w-full bg-red-600 flex flex-col justify-start px-20 pt-10 pb-12 mt-20 text-white">
+
         <div className="flex justify-end items-center">
           <span className="nav-text">Home</span>
           <span className="nav-text">Services</span>
           <span className="nav-text">Giving</span>
         </div>
 
-        <div className="flex">
-          <div className="flex flex-col w-40 mt-4">
+        <div className="flex mt-10">
+          <div className="flex flex-col w-40">
             <span className="font-casual font-bold text-sm md:text-base">
               Agugu
             </span>
@@ -19,7 +20,7 @@ function BottomNav() {
               Opposite Damatons Fuel Station, Iyana Idi-Obi
             </span>
           </div>
-          <div className="flex flex-col mt-4 ml-10">
+          <div className="flex flex-col ml-10">
             <span className="font-casual font-bold text-sm md:text-base">
               Contact Us
             </span>
@@ -48,11 +49,11 @@ function BottomNav() {
           </div>
         </div>
       </div>
-      <div className="w-full bg-red-600 flex justify-between items-center px-20 py-2 text-white">
-        <span className="font-casual font-light text-sm md:text-base">
+      <div className="w-full bg-red-600 flex justify-between items-center px-20 pt-4 pb-2 text-white font-casual font-light text-sm">
+        <span>
           Copyright 2022 The Stone Church, Agugu. All Rights Reserved
         </span>
-        <span className="font-casual font-light text-sm md:text-base">
+        <span>
           Made by{" "}
           <a
             href="https://laolu.netlify.app/"
