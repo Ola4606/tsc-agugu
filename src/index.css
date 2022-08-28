@@ -551,6 +551,11 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.my-12{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .mt-20{
   margin-top: 5rem;
 }
@@ -569,6 +574,10 @@ video {
 
 .mb-10{
   margin-bottom: 2.5rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
 }
 
 .mt-10{
@@ -595,20 +604,20 @@ video {
   height: 3.5rem;
 }
 
+.h-auto{
+  height: auto;
+}
+
 .h-\[450px\]{
   height: 450px;
 }
 
-.h-\[250px\]{
-  height: 250px;
+.min-h-\[200px\]{
+  min-height: 200px;
 }
 
 .min-h-\[450px\]{
   min-height: 450px;
-}
-
-.min-h-\[200px\]{
-  min-height: 200px;
 }
 
 .w-full{
@@ -623,8 +632,8 @@ video {
   width: 70px;
 }
 
-.w-\[250px\]{
-  width: 250px;
+.w-\[500px\]{
+  width: 500px;
 }
 
 .list-inside{
@@ -641,6 +650,10 @@ video {
 
 .items-start{
   align-items: flex-start;
+}
+
+.items-end{
+  align-items: flex-end;
 }
 
 .items-center{
@@ -668,18 +681,13 @@ video {
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
+.bg-red-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
 .bg-white\/\[\.50\]{
   background-color: rgb(255 255 255 / .50);
-}
-
-.bg-green-400{
-  --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
-}
-
-.bg-zinc-900{
-  --tw-bg-opacity: 1;
-  background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
 .bg-\[length\:auto_450px\]{
@@ -726,6 +734,10 @@ video {
 
 .text-justify{
   text-align: justify;
+}
+
+.text-start{
+  text-align: start;
 }
 
 .text-end{
@@ -781,14 +793,14 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-black{
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 .text-red-600{
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -832,40 +844,60 @@ video {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
-.timeline-thread-bubble{
-  margin-top: 1rem;
-  height: 0.75rem;
-  width: 0.75rem;
+.timeline-thread-bubble-first{
+  height: 0.5rem;
+  width: 0.5rem;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
+.timeline-thread-bubble{
+  margin-top: 1rem;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 420px){
+  .xsm\:max-w-\[300px\]{
+    max-width: 300px;
+  }
+
   .xsm\:max-w-\[350px\]{
     max-width: 350px;
   }
 }
 
 @media (min-width: 640px){
-  .sm\:max-w-\[450px\]{
-    max-width: 450px;
+  .sm\:max-w-\[400px\]{
+    max-width: 400px;
   }
 
-  .sm\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
+  .sm\:max-w-\[450px\]{
+    max-width: 450px;
   }
 
   .sm\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .sm\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 @media (min-width: 768px){
   .md\:mt-8{
     margin-top: 2rem;
+  }
+
+  .md\:max-w-\[450px\]{
+    max-width: 450px;
   }
 
   .md\:max-w-\[500px\]{
@@ -877,6 +909,11 @@ video {
     line-height: 1.5rem;
   }
 
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .md\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -886,16 +923,25 @@ video {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
-
-  .md\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
 }
 
 @media (min-width: 1024px){
+  .lg\:max-w-\[600px\]{
+    max-width: 600px;
+  }
+
   .lg\:max-w-\[650px\]{
     max-width: 650px;
+  }
+
+  .lg\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .lg\:text-5xl{
@@ -912,21 +958,17 @@ video {
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
-
-  .lg\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .lg\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
 }
 
 @media (min-width: 1280px){
+  .xl\:max-w-\[700px\]{
+    max-width: 700px;
+  }
+
   .xl\:max-w-\[750px\]{
     max-width: 750px;
   }
 }
+
+
 
