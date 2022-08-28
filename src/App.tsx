@@ -13,17 +13,17 @@ function App() {
     <div>
       <Router>
         <ScrollToTop />
-        <Routes>
-          <Nav />
-          <div className="px-20">
-            <LogoNav />
+        <Nav />
+        <div className="px-20">
+          <LogoNav />
+          <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/services" element={<Home />} />
+            <Route path="/services" element={<PageNotFound />} />
             <Route path="/giving" element={<Home />} />
             <Route path="*" element={<PageNotFound />} />
-          </div>
-          <BottomNav />
-        </Routes>
+          </Routes>
+        </div>
+        <BottomNav />
       </Router>
     </div>
   );
