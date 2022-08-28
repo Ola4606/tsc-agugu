@@ -13,17 +13,19 @@ function App() {
     <div>
       <Router>
         <ScrollToTop />
-        <Nav />
-        <div className="px-20">
-          <LogoNav />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/services" element={<PageNotFound />} />
-            <Route path="/giving" element={<Home />} />
-            <Route path="*" element={<PageNotFound />} />
-          </Routes>
+        <div className="min-h-[100vh] w-[100vw] flex flex-col justify-between">
+          <Nav />
+          <div className="px-20">
+            <LogoNav />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/services" element={<PageNotFound />} />
+              <Route path="/giving" element={<Home />} />
+              <Route path="*" element={<PageNotFound />} />
+            </Routes>
+          </div>
+          <BottomNav />
         </div>
-        <BottomNav />
       </Router>
     </div>
   );

@@ -620,6 +620,10 @@ video {
   min-height: 450px;
 }
 
+.min-h-\[100vh\]{
+  min-height: 100vh;
+}
+
 .w-full{
   width: 100%;
 }
@@ -634,6 +638,18 @@ video {
 
 .w-\[500px\]{
   width: 500px;
+}
+
+.w-\[100vw\]{
+  width: 100vw;
+}
+
+.min-w-\[100vh\]{
+  min-width: 100vh;
+}
+
+.min-w-\[100vw\]{
+  min-width: 100vw;
 }
 
 .list-inside{
