@@ -6,6 +6,7 @@ import Home from "./components/home/Home";
 import BottomNav from "./components/general/BottomNav";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/general/ScrollToTop";
+import PageNotFound from "./components/general/PageNotFound";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Home />} />
             <Route path="/giving" element={<Home />} />
-            {/* <Route path="*" element={<PageNotFound />} /> */}
+            <Route path="*" element={<PageNotFound />} />
           </div>
           <BottomNav />
         </Routes>
