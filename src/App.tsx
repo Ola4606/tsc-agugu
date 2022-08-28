@@ -7,6 +7,8 @@ import BottomNav from "./components/general/BottomNav";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/general/ScrollToTop";
 import PageNotFound from "./components/general/PageNotFound";
+import Services from "./components/cServices/Services";
+import Giving from "./components/cGiving/Giving";
 
 function App() {
   return (
