@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .nav-text {
-  @apply font-title font-semibold text-white text-sm md:text-base ml-5 md:ml-20;
+  @apply font-title font-semibold text-white text-sm md:text-base ml-5 sm:ml-8 md:ml-20;
 }
 
 .bible-verse {
