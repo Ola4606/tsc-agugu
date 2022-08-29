@@ -556,6 +556,11 @@ video {
   margin-bottom: 3rem;
 }
 
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mt-10{
   margin-top: 2.5rem;
 }
@@ -610,6 +615,10 @@ video {
 
 .mb-12{
   margin-bottom: 3rem;
+}
+
+.mt-6{
+  margin-top: 1.5rem;
 }
 
 .flex{
@@ -674,6 +683,10 @@ video {
 
 .flex-col{
   flex-direction: column;
+}
+
+.flex-col-reverse{
+  flex-direction: column-reverse;
 }
 
 .items-start{
@@ -1004,6 +1017,11 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:my-12{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
   .md\:mt-14{
     margin-top: 3.5rem;
   }
@@ -1034,6 +1052,10 @@ video {
 
   .md\:mb-8{
     margin-bottom: 2rem;
+  }
+
+  .md\:mt-12{
+    margin-top: 3rem;
   }
 
   .md\:flex{
