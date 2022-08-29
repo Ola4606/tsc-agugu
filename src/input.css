@@ -12,13 +12,13 @@
   @apply font-casual font-bold text-gray-700;
 }
 
-.timeline-thread-bubble-first {
+/* .timeline-thread-bubble-first {
   @apply rounded-full bg-gray-400 w-2 h-2
 }
 
 .timeline-thread-bubble {
   @apply rounded-full bg-gray-400 w-2 h-2 mt-4
-}
+} */
 
 
 
