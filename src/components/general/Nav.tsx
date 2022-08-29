@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-    <div className="w-full h-14 bg-red-600 flex justify-end items-center pr-20 mb-10">
+    <div className="w-full md:h-14 bg-red-600 flex justify-end items-center py-2 md:py-0 pr-5 md:pr-20 mb-10">
       <Link to="/">
         <span className="nav-text">Home</span>
       </Link>
