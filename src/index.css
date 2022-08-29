@@ -1114,6 +1114,10 @@ video {
     align-items: flex-start;
   }
 
+  .md\:items-center{
+    align-items: center;
+  }
+
   .md\:justify-start{
     justify-content: flex-start;
   }

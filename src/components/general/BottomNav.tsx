@@ -33,34 +33,16 @@ function BottomNav() {
               Contact Us
             </span>
             <span className="font-casual font-light text-sm md:text-base">
-              Phone: +234
-              <br />
-              Email:{" "}
-              <a
-                href="https://laolu.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline decoration-gray-400"
-              >
-                @gmail.com
-              </a>
-              <br />
-              <a
-                href="https://laolu.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline decoration-gray-400"
-              >
-                Telegram Group
-              </a>
+              Phone: +<a href="tel:+2348037172329" className="underline decoration-gray-400">2348037172329</a>
+              
             </span>
           </div>
         </div>
 
-        <div className="text-white font-casual font-light text-sm flex justify-between items-center mt-16">
+        <div className="flex flex-col md:flex-row justify-start md:justify-between items-start md:items-center text-white font-casual font-light text-sm mt-16">
 
         <span>Copyright 2022 The Stone Church, Agugu. All Rights Reserved</span>
-        <span>
+        <span className="mt-4 md:mt-0">
           Made by{" "}
           <a
             href="https://laolu.netlify.app/"
