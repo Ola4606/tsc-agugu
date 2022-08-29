@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 function BottomNav() {
   return (
     <div>
-      <div className="w-full bg-red-600 flex flex-col justify-start px-20 pt-10 pb-12 mt-20 text-white">
+      
+
+      <div className="w-full bg-red-600 flex flex-col justify-start px-5 sm:px-8 md:px-20 pt-10 pb-2 mt-20 text-white">
         <div className="flex justify-end items-center">
           <Link to="/">
             <span className="nav-text">Home</span>
@@ -17,8 +19,8 @@ function BottomNav() {
           </Link>
         </div>
 
-        <div className="flex mt-10">
-          <div className="flex flex-col w-40">
+        <div className="flex flex-col md:flex-row mt-10">
+          <div className="flex flex-col md:w-40">
             <span className="font-casual font-bold text-sm md:text-base">
               Agugu
             </span>
@@ -26,23 +28,37 @@ function BottomNav() {
               Opposite Damatons Fuel Station, Iyana Idi-Obi
             </span>
           </div>
-          <div className="flex flex-col ml-10">
+          <div className="flex flex-col mt-10 md:mt-0 md:ml-10">
             <span className="font-casual font-bold text-sm md:text-base">
               Contact Us
             </span>
             <span className="font-casual font-light text-sm md:text-base">
-              Phone:{" "}+
+              Phone: +234
+              <br />
+              Email:{" "}
               <a
-                href="tel:+2348037172329"
+                href="https://laolu.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="underline decoration-gray-400"
               >
-                2348037172329
+                @gmail.com
+              </a>
+              <br />
+              <a
+                href="https://laolu.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline decoration-gray-400"
+              >
+                Telegram Group
               </a>
             </span>
           </div>
         </div>
-      </div>
-      <div className="w-full bg-red-600 flex justify-between items-center px-20 pt-4 pb-2 text-white font-casual font-light text-sm">
+
+        <div className="text-white font-casual font-light text-sm flex justify-between items-center mt-16">
+
         <span>Copyright 2022 The Stone Church, Agugu. All Rights Reserved</span>
         <span>
           Made by{" "}
@@ -55,6 +71,8 @@ function BottomNav() {
             Laolu
           </a>
         </span>
+
+        </div>
       </div>
     </div>
   );
