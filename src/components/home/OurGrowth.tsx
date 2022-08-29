@@ -18,14 +18,15 @@ function OurGrowth() {
 
   return (
     <div className="mt-20">
-      <p className="font-bold font-title text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black underline underline-offset-4 decoration-gray-300 mb-16 text-end">
+      <p className="font-bold font-title text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black underline underline-offset-4 decoration-gray-300 text-center mb-4 md:mb-8">
         Our Growth
       </p>
 
       {ourGrowthElements}
+
       <p className="font-bold font-title text-lg sm:text-xl md:text-2xl lg:text-3xl text-red-600 text-center">
-              Much more to come, by God's Grace
-            </p>
+        Much more to come, by God's Grace
+      </p>
     </div>
   );
 }
