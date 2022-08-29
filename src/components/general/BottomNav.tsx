@@ -31,25 +31,12 @@ function BottomNav() {
               Contact Us
             </span>
             <span className="font-casual font-light text-sm md:text-base">
-              Phone: +234
-              <br />
-              Email:{" "}
+              Phone:{" "}+
               <a
-                href="https://laolu.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="tel:+2348037172329"
                 className="underline decoration-gray-400"
               >
-                @gmail.com
-              </a>
-              <br />
-              <a
-                href="https://laolu.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline decoration-gray-400"
-              >
-                Telegram Group
+                2348037172329
               </a>
             </span>
           </div>

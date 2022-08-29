@@ -16,8 +16,8 @@ function Intro() {
         </p>
         <div className="mt-4 md:mt-8">
           <p className="font-casual text-base md:text-lg lg:text-xl">
-            We are a community of Christ followers bringing gospel renewal to
-            our city and world.
+            We are Christians bringing The Good News of The Gospel to
+            our city, by building an army of saints.
           </p>
         </div>
       </div>
