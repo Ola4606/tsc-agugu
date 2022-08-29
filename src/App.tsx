@@ -17,7 +17,7 @@ function App() {
         <ScrollToTop />
         <div className="min-h-[100vh] flex flex-col justify-between">
           <Nav />
-          <div className="px-20">
+          <div className="px-3 md:px-20">
             <LogoNav />
             <Routes>
               <Route path="/" element={<Home />} />
