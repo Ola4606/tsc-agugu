@@ -8,30 +8,23 @@ function OurStory() {
       style={{ backgroundImage: `url(${StoryImage})` }}
     >
       <div className="bg-white/[.50] min-h-[450px] flex justify-end items-center">
-        <div className="xsm:max-w-[350px] sm:max-w-[450px] md:max-w-[500px] lg:max-w-[650px] xl:max-w-[750px] text-end">
-          <p className="font-bold font-title text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black underline underline-offset-4 decoration-gray-300 mb-16">
+        <div className="xsm:max-w-[350px] sm:max-w-[450px] md:max-w-[500px] lg:max-w-[650px] xl:max-w-[750px] text-justify">
+          <p className="font-bold font-title text-xl sm:text-2xl md:text-3xl lg:text-4xl text-black underline underline-offset-4 decoration-gray-300 mb-16 text-end">
             Our Story
           </p>
 
           <div className="font-casual text-base md:text-lg lg:text-xl">
             <p>
-              We’ve been gathering together for over 25 years. Started on April
-              23rd, 1993 at the Omega Conference Centre, Favos building, New
-              Bodija, in Ibadan, Oyo State. We’ve expanded to more than 5,000
-              people in forty-one (41) locations across 4 continents.The Stone
-              Church, registered as an arm of the Word Alive Ministries
-              International.
+              We started out in 2018 with the goal of publishing the full gospel
+              of Jesus Christ to the inner city of Ibadan. Beginning with free
+              tutorials classes to prepare students for the final secondary
+              school examinations and university entrance examinations, we
+              eventually started an afternoon fellowship. Gradually we commenced
+              Sunday services and Friday prayer meeting and Bible study using a
+              classroom within United Secondary School, Agugu.  In 2021 we
+              acquired a parcel of land at Iyana Idi Obi junction, Agugu and we
+              initiated the construction of the church auditorium.
             </p>
-            <br />
-            <p>
-              The inaugural service was held on Saturday, April 23rd 1993, at
-              the Omega Conference Centre, Favos Building, New Bodija, Ibadan,
-              Oyo State. Sunday services commenced at the same venue on April
-              24th 1993 at 8 a.m. The Headquarters of the Church has since moved
-              to its permanent site at Mokola, and has continued to establish
-              branches all over the country and overseas.
-            </p>
-            <br />
           </div>
         </div>
       </div>

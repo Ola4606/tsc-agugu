@@ -45,12 +45,12 @@ function Giving() {
         </p>
         <br />
         <p className="font-bold font-title text-lg leading-none text-gray-600">
-          THE STONE CHURCH
+          THE STONE CHURCH AGUGU
         </p>
         <br />
         <br />
         <p className="font-bold font-title text-xl sm:text-2xl md:text-3xl lg:text-5xl text-black underline underline-offset-4 decoration-slate-300">
-          0032467854
+          0250063391
         </p>
         <br />
         <br />
@@ -75,7 +75,7 @@ function Giving() {
         </p>
         <br /><br /> */}
         <p className="font-bold font-title text-xl sm:text-2xl md:text-3xl lg:text-5xl text-black">
-          Currently Unavaliable
+          Currently Unavailable
         </p>
       </div>
     </div>

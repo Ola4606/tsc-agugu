@@ -13,43 +13,23 @@ function OurMission() {
             Our Mission
           </p>
 
-          <ul className="list-disc list-inside font-casual text-base md:text-lg lg:text-xl">
-            <li>
-              <span>
-                We bring people into{" "}
-                <span className="font-semibold text-red-600">MEMBERSHIP</span>{" "}
-                in God’s Family.
-              </span>
-            </li>
-
-            <li>
-              <span>
-                We help them to{" "}
-                <span className="font-semibold text-red-600">MATURITY</span> in
-                Christ likeness.
-              </span>
-            </li>
-            <li>
-              <span>
-                We equip them for{" "}
-                <span className="font-semibold text-red-600">MINISTRY</span>
-              </span>
-            </li>
-            <li>
-              <span>
-                We send them out to{" "}
-                <span className="font-semibold text-red-600">MISSIONS</span> to
-                the world.
-              </span>
-            </li>
-            <li>
-              <span>
-                In order to{" "}
-                <span className="font-semibold text-red-600">MAGNIFY</span>{" "}
-                God’s Name.
-              </span>
-            </li>
-          </ul>
+          <div className="font-casual text-base md:text-lg lg:text-xl">
+            <p>
+              Build an army of saints that will shine light to those who sat in
+              darkness and in the shadow of death. We will achieve this by
+              bringing people into{" "}
+              <span className="font-semibold text-red-600">MEMBERSHIP</span> in
+              God’s Family, help them to{" "}
+              <span className="font-semibold text-red-600">MATURITY</span> in
+              Christ likeness, equip them for{" "}
+              <span className="font-semibold text-red-600">MINISTRY</span>, send
+              them out to{" "}
+              <span className="font-semibold text-red-600">MISSIONS</span> to
+              the world, thus{" "}
+              <span className="font-semibold text-red-600">MAGNIFYING</span>{" "}
+              God’s Name.
+            </p>
+          </div>
         </div>
       </div>
     </div>
