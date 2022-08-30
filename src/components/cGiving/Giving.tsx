@@ -9,17 +9,17 @@ function Giving() {
         className="bg-center bg-no-repeat bg-[length:100%_auto] mt-10"
         style={{ backgroundImage: `url(${GivingImage})` }}
       >
-        <div className="bg-white md:bg-white/[.50] w-full md:h-[450px] flex flex-col justify-center items-center">
+        <div className="bg-white md:bg-white/[.50] w-full md:h-[320px] lg:h-[370px] xl:h-[450px] flex flex-col justify-center items-center">
           <p className="font-bold font-title text-xl sm:text-2xl md:text-3xl lg:text-5xl text-black">
             Giving
           </p>
-          <div className="xsm:max-w-[390px] sm:max-w-[550px] mt-12 md:hidden">
+          <div className="xsm:max-w-[390px] sm:max-w-[550px] my-12 md:hidden md:my-0">
             <img src={GivingImageSm} alt="" className="w-full h-auto rounded-xl" />
           </div>
         </div>
       </div>
 
-      <div className="mt-8 md:mt-14 text-center">
+      <div className="mt-8 md:mt-0 lg:mt-8 xl:mt-14 text-center">
         <p className="font-casual text-base md:text-lg lg:text-xl">
           While we can’t do it all, we can make a difference with simple, small
           actions that give back to others. Through small gestures, we can make
