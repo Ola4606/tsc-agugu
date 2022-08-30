@@ -699,6 +699,11 @@ video {
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-\[length\:100\%_auto\]{
   background-size: 100% auto;
 }
@@ -997,6 +1002,10 @@ video {
     height: 3.5rem;
   }
 
+  .md\:h-\[450px\]{
+    height: 450px;
+  }
+
   .md\:w-40{
     width: 10rem;
   }
@@ -1035,6 +1044,10 @@ video {
 
   .md\:justify-between{
     justify-content: space-between;
+  }
+
+  .md\:bg-white\/\[\.50\]{
+    background-color: rgb(255 255 255 / .50);
   }
 
   .md\:px-20{
