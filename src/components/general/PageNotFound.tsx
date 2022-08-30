@@ -9,7 +9,7 @@ function PageNotFound() {
       </p>
       <Link to="/">
         <div className="mt-4 md:mt-8 text-center bg-red-600 rounded-md py-1 px-2">
-          <p className="font-casual text-sm md:text-base text-white">
+          <p className="font-casual text-sm text-white">
             Home Page
           </p>
         </div>
