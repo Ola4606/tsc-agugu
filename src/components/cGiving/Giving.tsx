@@ -60,7 +60,7 @@ function Giving() {
 
       <div className="mt-14 md:mt-32 text-center">
         <p className="font-bold font-title text-lg leading-none text-start">
-          FOR INTERNATION PAYMENTS:
+          FOR INTERNATIONAL PAYMENTS:
         </p>
         <p className="font-bold font-title text-xl sm:text-2xl md:text-3xl lg:text-5xl text-black mt-4 md:mt-16">
           Currently Unavailable
