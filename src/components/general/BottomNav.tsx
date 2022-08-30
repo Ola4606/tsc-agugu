@@ -6,7 +6,7 @@ function BottomNav() {
     <div>
       
 
-      <div className="w-full bg-red-600 flex flex-col justify-start px-5 sm:px-8 md:px-20 pt-10 pb-2 mt-20 text-white">
+      <div className="w-full bg-red-600 flex flex-col justify-start px-5 sm:px-8 md:px-20 pt-10 pb-2 mt-14 md:mt-20 text-white">
         <div className="flex justify-end items-center">
           <Link to="/">
             <span className="nav-text">Home</span>
