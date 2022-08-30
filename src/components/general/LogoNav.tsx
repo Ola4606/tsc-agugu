@@ -1,4 +1,4 @@
-import React from "react";
+import React, {memo} from "react";
 import TSCLogo from "../../images/tsc-logo.png";
 
 function LogoNav() {
@@ -28,4 +28,4 @@ function LogoNav() {
   );
 }
 
-export default LogoNav;
+export default memo(LogoNav);

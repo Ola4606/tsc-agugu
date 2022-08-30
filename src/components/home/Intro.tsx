@@ -1,4 +1,4 @@
-import React from "react";
+import React, {memo} from "react";
 import IntroImage from "../../images/intro.png";
 
 function Intro() {
@@ -31,4 +31,4 @@ function Intro() {
   );
 }
 
-export default Intro;
+export default memo(Intro);

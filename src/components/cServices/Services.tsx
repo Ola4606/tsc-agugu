@@ -1,4 +1,4 @@
-import React from "react";
+import React, {memo} from "react";
 import ServiceImage from "../../images/services.png";
 import ServiceImageSm from "../../images/services-sm.png";
 
@@ -116,4 +116,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default memo(Services);

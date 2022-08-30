@@ -1,4 +1,4 @@
-import React from "react";
+import React, {memo} from "react";
 import ArrowDown from "../../images/arrow.png";
 
 function TimelineThread() {
@@ -9,4 +9,4 @@ function TimelineThread() {
   );
 }
 
-export default TimelineThread;
+export default memo(TimelineThread);

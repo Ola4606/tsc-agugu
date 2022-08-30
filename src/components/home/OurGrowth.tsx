@@ -1,4 +1,4 @@
-import React from "react";
+import React, {memo} from "react";
 import outGrowthData from "../../data/outGrowthData";
 import YearDescription from "../growth/YearDescription";
 
@@ -31,4 +31,4 @@ function OurGrowth() {
   );
 }
 
-export default OurGrowth;
+export default memo(OurGrowth);

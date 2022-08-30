@@ -1,4 +1,4 @@
-import React from "react";
+import React, {memo} from "react";
 import { Link } from "react-router-dom";
 
 function PageNotFound() {
@@ -18,4 +18,4 @@ function PageNotFound() {
   );
 }
 
-export default PageNotFound;
+export default memo(PageNotFound);

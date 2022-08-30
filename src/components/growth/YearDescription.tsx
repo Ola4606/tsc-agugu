@@ -1,4 +1,4 @@
-import React from "react";
+import React, {memo} from "react";
 import TimelineThread from "./TimelineThread";
 
 type YearDescriptionPropType = {
@@ -54,4 +54,4 @@ function YearDescription({
   );
 }
 
-export default YearDescription;
+export default memo(YearDescription);

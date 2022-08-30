@@ -1,4 +1,4 @@
-import React from "react";
+import React, {memo} from "react";
 import Intro from "./Intro";
 import OurGrowth from "./OurGrowth";
 import AguguHomeData from "../../data/aguguHomeData";
@@ -24,4 +24,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default memo(Home);

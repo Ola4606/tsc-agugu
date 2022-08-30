@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {memo} from 'react'
 
 type HomeSectionPropType = {
   title: string,
@@ -25,4 +25,4 @@ function HomeSection({title, content, image}: HomeSectionPropType) {
   )
 }
 
-export default HomeSection
+export default memo(HomeSection);

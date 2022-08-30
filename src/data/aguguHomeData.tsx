@@ -1,4 +1,4 @@
-import React from "react";
+import React, {memo} from "react";
 import StoryImage from "../images/story.png";
 import MissionImage from "../images/mission.png";
 import WeImage from "../images/we.png";

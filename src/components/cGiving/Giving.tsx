@@ -1,4 +1,4 @@
-import React from "react";
+import React, {memo} from "react";
 import GivingImage from "../../images/giving.png";
 import GivingImageSm from "../../images/giving-sm.png";
 
@@ -70,4 +70,4 @@ function Giving() {
   );
 }
 
-export default Giving;
+export default memo(Giving);
