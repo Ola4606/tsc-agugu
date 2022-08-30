@@ -1,9 +1,9 @@
 import React, {memo} from "react";
-import outGrowthData from "../../data/outGrowthData";
+import GrowthData from "../../data/outGrowthData";
 import YearDescription from "../growth/YearDescription";
 
 function OurGrowth() {
-  let ourGrowthElements = outGrowthData.map((i, index) => {
+  let ourGrowthElements = GrowthData.map((i, index) => {
     return (
       <div key={index}>
         <YearDescription

@@ -3,7 +3,7 @@ import church2020 from "../images/2020.png";
 import church2021 from "../images/2021.png";
 import church2022 from "../images/2022.png";
 
-export default [
+const GrowthData = [
   {
     year: "2018 – 2019",
     description: (
@@ -52,3 +52,5 @@ export default [
     side: "right",
   },
 ];
+
+export default GrowthData;

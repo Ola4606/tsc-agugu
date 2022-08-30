@@ -1,4 +1,4 @@
-import React, {memo} from "react";
+import React from "react";
 
 import Nav from "./components/general/Nav";
 import LogoNav from "./components/general/LogoNav";
