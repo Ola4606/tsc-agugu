@@ -1,6 +1,7 @@
-import React, {memo} from "react";
+import React, { memo } from "react";
 import ServiceImage from "../../images/services.png";
 import ServiceImageSm from "../../images/services-sm.png";
+import Divider from "./Divider";
 
 function Services() {
   return (
@@ -42,7 +43,9 @@ function Services() {
         </p> */}
       </div>
 
-      <div className="mt-14 md:mt-24 text-center">
+      <Divider />
+
+      <div className="text-center">
         <p className="font-bold font-title text-lg leading-none text-start">
           Every 3rd Friday:
         </p>
@@ -57,7 +60,9 @@ function Services() {
         </p> */}
       </div>
 
-      <div className="mt-14 md:mt-24 text-center">
+      <Divider />
+
+      <div className="text-center">
         <p className="font-bold font-title text-lg leading-none text-start">
           Every 4th Friday:
         </p>
@@ -72,7 +77,9 @@ function Services() {
         </p> */}
       </div>
 
-      <div className="mt-10 md:mt-20 text-center">
+      <Divider />
+
+      <div className="text-center">
         <p className="font-bold font-title text-lg leading-none text-start">
           Every Sunday:
         </p>
@@ -85,7 +92,9 @@ function Services() {
         </p> */}
       </div>
 
-      <div className="mt-10 md:mt-20 text-center">
+      <Divider />
+
+      <div className="text-center">
         <p className="font-bold font-title text-lg leading-none text-start">
           Every 3rd Sunday:
         </p>
@@ -98,6 +107,8 @@ function Services() {
           Upcoming:
         </p> */}
       </div>
+
+      <Divider />
 
       <div className="mt-10 md:mt-20 text-center">
         <p className="font-bold font-title text-lg leading-none text-start">
