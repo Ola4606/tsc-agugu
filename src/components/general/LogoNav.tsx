@@ -13,16 +13,16 @@ function LogoNav() {
 
         <div className="mt-2 md:mt-0 md:ml-2 flex flex-col justify-center items-center">
           <span className="font-bold font-title text-base md:text-lg leading-none">
-            WORLD ALIVE MINISTRIES
+            THE WORD ALIVE MINISTRIES
           </span>
           <span className="font-light font-casual text-sm md:text-base md:hidden text-center">
-            Ibadan,&nbsp;Nigeria.
+            Nigeria
           </span>
         </div>
       </div>
 
       <span className="font-light font-casual text-sm md:text-base hidden md:flex">
-        Ibadan,&nbsp;&nbsp;Nigeria.
+        Nigeria
       </span>
     </div>
   );
