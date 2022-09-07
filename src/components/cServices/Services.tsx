@@ -24,104 +24,106 @@ function Services() {
         </div>
       </div>
 
-      <div className="mt-8 md:mt-14 text-center">
+      {/* <div className="mt-8 md:mt-14 text-center">
         <p className="font-casual text-base md:text-lg lg:text-xl">
           We meet on Fridays and Sundays
         </p>
-      </div>
+      </div> */}
 
-      <div className="mt-14 md:mt-24 text-center">
-        <p className="font-bold font-title text-lg leading-none text-start">
-          Every Friday:
-        </p>
-        <p className="font-casual text-base md:text-lg lg:text-xl text-start">
-          We meet for our midweek services from 4:00pm - 6:00pm
-        </p>
+      <div className="text-center md:text-start">
+        <div className="mt-14 md:mt-24">
+          <p className="font-bold font-title text-lg leading-none">
+            Every Friday:
+          </p>
+          <p className="font-casual text-base md:text-lg lg:text-xl">
+            We meet for our midweek services from 4:00pm - 6:00pm
+          </p>
 
-        {/* <p className="font-bold font-title text-base md:text-lg lg:text-xl text-start leading-none text-gray-600">
+          {/* <p className="font-bold font-title text-base md:text-lg lg:text-xl  leading-none text-gray-600">
           Upcoming:
         </p> */}
-      </div>
+        </div>
 
-      <Divider />
+        <Divider />
 
-      <div className="text-center">
-        <p className="font-bold font-title text-lg leading-none text-start">
-          Every 3rd Friday:
-        </p>
-        <p className="font-casual text-base md:text-lg lg:text-xl text-start">
-          We meet for a word based seminar on relationships and marriage titled
-          "<span className="font-bold">Matters of the Heart</span>" from 4:00pm
-          - 6:00pm
-        </p>
+        <div>
+          <p className="font-bold font-title text-lg leading-none ">
+            Every 3rd Friday:
+          </p>
+          <p className="font-casual text-base md:text-lg lg:text-xl ">
+            We meet for a word based seminar on relationships and marriage
+            titled "<span className="font-bold">Matters of the Heart</span>"
+            from 4:00pm - 6:00pm
+          </p>
 
-        {/* <p className="font-bold font-title text-base md:text-lg lg:text-xl text-start leading-none text-gray-600">
+          {/* <p className="font-bold font-title text-base md:text-lg lg:text-xl  leading-none text-gray-600">
           Upcoming:
         </p> */}
-      </div>
+        </div>
 
-      <Divider />
+        <Divider />
 
-      <div className="text-center">
-        <p className="font-bold font-title text-lg leading-none text-start">
-          Every 4th Friday:
-        </p>
-        <p className="font-casual text-base md:text-lg lg:text-xl text-start">
-          We meet for a word based seminar on entrepreneurship and financial
-          management titled "<span className="font-bold">Money Matters</span>"
-          from 4:00pm - 6:00pm
-        </p>
+        <div>
+          <p className="font-bold font-title text-lg leading-none ">
+            Every 4th Friday:
+          </p>
+          <p className="font-casual text-base md:text-lg lg:text-xl ">
+            We meet for a word based seminar on entrepreneurship and financial
+            management titled "<span className="font-bold">Money Matters</span>"
+            from 4:00pm - 6:00pm
+          </p>
 
-        {/* <p className="font-bold font-title text-base md:text-lg lg:text-xl text-start leading-none text-gray-600">
+          {/* <p className="font-bold font-title text-base md:text-lg lg:text-xl  leading-none text-gray-600">
           Upcoming:
         </p> */}
-      </div>
+        </div>
 
-      <Divider />
+        <Divider />
 
-      <div className="text-center">
-        <p className="font-bold font-title text-lg leading-none text-start">
-          Every Sunday:
-        </p>
-        <p className="font-casual text-base md:text-lg lg:text-xl text-start">
-          We meet for our main weekly services from 4:30pm - 6:00pm
-        </p>
+        <div>
+          <p className="font-bold font-title text-lg leading-none ">
+            Every Sunday:
+          </p>
+          <p className="font-casual text-base md:text-lg lg:text-xl ">
+            We meet for our main weekly services from 4:30pm - 6:00pm
+          </p>
 
-        {/* <p className="font-bold font-title text-base md:text-lg lg:text-xl text-start leading-none text-gray-600">
+          {/* <p className="font-bold font-title text-base md:text-lg lg:text-xl  leading-none text-gray-600">
           Upcoming:
         </p> */}
-      </div>
+        </div>
 
-      <Divider />
+        <Divider />
 
-      <div className="text-center">
-        <p className="font-bold font-title text-lg leading-none text-start">
-          Every 3rd Sunday:
-        </p>
-        <p className="font-casual text-base md:text-lg lg:text-xl text-start">
-          We have a door-to-door evangelism session from 3:30pm - 4:30pm.{" "}
-          <i>In addition to the main service.</i>
-        </p>
+        <div>
+          <p className="font-bold font-title text-lg leading-none ">
+            Every 3rd Sunday:
+          </p>
+          <p className="font-casual text-base md:text-lg lg:text-xl ">
+            We have a door-to-door evangelism session from 3:30pm - 4:30pm.{" "}
+            <i>In addition to the main service.</i>
+          </p>
 
-        {/* <p className="font-bold font-title text-base md:text-lg lg:text-xl text-start leading-none text-gray-600">
+          {/* <p className="font-bold font-title text-base md:text-lg lg:text-xl  leading-none text-gray-600">
           Upcoming:
         </p> */}
-      </div>
+        </div>
 
-      <Divider />
+        <Divider />
 
-      <div className="mt-10 md:mt-20 text-center">
-        <p className="font-bold font-title text-lg leading-none text-start">
-          Every 4th Sunday:
-        </p>
-        <p className="font-casual text-base md:text-lg lg:text-xl text-start">
-          We have our Believers Bible Class from 5:00pm - 6:00pm.{" "}
-          <i>In addition to the main service.</i>
-        </p>
+        <div className="mt-10 md:mt-20">
+          <p className="font-bold font-title text-lg leading-none ">
+            Every 4th Sunday:
+          </p>
+          <p className="font-casual text-base md:text-lg lg:text-xl ">
+            We have our Believers Bible Class from 5:00pm - 6:00pm.{" "}
+            <i>In addition to the main service.</i>
+          </p>
 
-        {/* <p className="font-bold font-title text-base md:text-lg lg:text-xl text-start leading-none text-gray-600">
+          {/* <p className="font-bold font-title text-base md:text-lg lg:text-xl  leading-none text-gray-600">
           Upcoming:
         </p> */}
+        </div>
       </div>
     </div>
   );
