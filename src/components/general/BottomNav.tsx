@@ -25,7 +25,7 @@ function BottomNav() {
               Agugu
             </span>
             <span className="font-casual font-light text-sm md:text-base">
-              Opposite Damatons Fuel Station, Iyana Idi-Obi
+              Opposite Davatos Filing Station, Iyana Idi-Obi, Ibadan, Nigeria
             </span>
           </div>
           <div className="flex flex-col mt-10 md:mt-0 md:ml-10">
@@ -34,6 +34,10 @@ function BottomNav() {
             </span>
             <span className="font-casual font-light text-sm md:text-base">
               Phone: +<a href="tel:+2348037172329" className="underline decoration-gray-400">2348037172329</a>
+              
+            </span>
+            <span className="font-casual font-light text-sm md:text-base">
+              Email: <a href="mailto:tscagugu@gmail.com" className="underline decoration-gray-400">tscagugu@gmail.com</a>
               
             </span>
           </div>
