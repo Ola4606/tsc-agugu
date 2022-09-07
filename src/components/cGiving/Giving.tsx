@@ -36,10 +36,10 @@ function Giving() {
       </div>
 
       <div className="mt-14 md:mt-32 text-center">
-        <p className="font-bold font-title text-lg leading-none text-start">
+        <p className="font-bold font-title text-lg leading-none xl:text-start">
           FOR LOCAL (NIGERIAN) PAYMENTS:
         </p>
-        <p className="font-casual text-base md:text-lg lg:text-xl text-start">
+        <p className="font-casual text-base md:text-lg lg:text-xl xl:text-start">
           Bank transfers can be made to this account
         </p>
         <p className="font-bold font-title text-lg leading-none text-gray-600 mt-4 md:mt-16">
@@ -59,7 +59,7 @@ function Giving() {
       </div>
 
       <div className="mt-14 md:mt-32 text-center">
-        <p className="font-bold font-title text-lg leading-none text-start">
+        <p className="font-bold font-title text-lg leading-none xl:text-start">
           FOR INTERNATIONAL PAYMENTS:
         </p>
         <p className="font-bold font-title text-xl sm:text-2xl md:text-3xl lg:text-5xl text-black mt-4 md:mt-16">
