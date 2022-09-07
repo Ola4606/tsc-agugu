@@ -25,7 +25,7 @@ const AguguHomeData = [
     title: "Our Mission",
     content: (
       <p>
-        Build an army of saints that will shine light to those who sat in
+        Build an army of saints that will shine light to those who sit in
         darkness and in the shadow of death. We will achieve this by bringing
         people into{" "}
         <span className="font-semibold text-red-600">MEMBERSHIP</span> in God’s
@@ -47,14 +47,14 @@ const AguguHomeData = [
       <p>
         We are a group of believers with a passion to ensure that the fullness
         of the reward of the sacrifice of the Lord Jesus Christ is achieved.
-        Operating within the context of Word Alive Ministry a.k.a. The Stone
+        Operating within the context of Word Alive Ministries a.k.a. The Stone
         Church, we present the full gospel of Jesus Christ to the inner city of
         Ibadan.
         <br />
         <br />
         Declaring the good news to the poor, healing the broken hearted,
         proclaiming freedom to the captives and oppressed, restoration of sight
-        to the blind, and assert that the time of the Lord’s favor has come.
+        to the blind, and asserting that the time of the Lord’s favor has come.
       </p>
     ),
     imageURL: WeImage,
